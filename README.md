@@ -2,7 +2,7 @@
 
 # Classic Othello
 
-&emsp;&emsp; A simple html page with a lot of bootstrap and font awesome just to create your own personal website. Edit your details and try modify the bootstrap classes, color or icons to have your own personal website. Best of luck for your career. Click [here](https://rithikbanerjee.github.io/profile) to visit my profile. <br /> 
+&emsp;&emsp; A javascript based othello game on html. Othello is a strategy board game for two players, played on an 8×8 uncheckered board. To know more about the rules click [here](https://www.youtube.com/watch?v=Ol3Id7xYsY4). And to play Classic Othello click [here](https://rithikbanerjee.github.io/othello/).<br /> 
 
 ## FAQ
 
