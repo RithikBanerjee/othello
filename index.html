@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" href="assets/icon/favicon.png">
+    <title>Othello</title>
+  </head>
+  <body>
+    <div class="container">
+	
+	<div class="stats">
+        <div class="stats-1"></div>
+		
+       <div class="stats-general">
+          <div class="game-is-on">
+              <h1 class="title">Classic Othello</h1>
+              <button class="feature-button ai">AI mode</button>
+              <button class="feature-button hint">Show Hints</button>
+          </div>
+        </div>
+		
+        <div class="stats-2"></div>
+      </div>
+	  
+      <div class="stats">
+        <div class="stats-1">
+          <h3>Player 1</h3>
+          <div>Scores: <span class="score"></span></div>
+          <div>Turns: <span class="turns"></span></div>
+        </div>
+
+        <div class="stats-general">
+          <div class="game-on">
+              <h2><span class="player-field"></span>'s Turn</h2>
+              <button class="game-button skip">Skip Turn</button>
+              <button class="game-button resign">Resign</button>
+          </div>
+
+          <div class="game-over">
+              <h2 class="winner"></h2>
+              <button class="game-button reset">New Game?</button>
+          </div>
+        </div>
+
+        <div class="stats-2">
+          <h3>Player 2</h3>
+          <div>Scores: <span class="score"></span></div>
+          <div>Turns: <span class="turns"></span></div>
+        </div>
+      </div>
+
+      <div class="grid-wrapper"></div>
+	  
+	  <div style="margin-top: 15%;">© 2020 Rithik Banerjee.</div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+  </body>
+</html>
