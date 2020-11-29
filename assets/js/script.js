@@ -196,9 +196,11 @@ function toggleAIMode() {
   if (aiMode) {
     document.querySelector('.stats-2 > h3').innerHTML = 'Computer';
     document.querySelector('.ai').innerHTML = '1-1 Mode';
+    document.querySelector('.skip').style.display = 'none';
   } else {
     document.querySelector('.stats-2 > h3').innerHTML = 'Player 2';
     document.querySelector('.ai').innerHTML = 'AI Mode';
+    document.querySelector('.skip').style.display = 'initial';
   }
 }
 
